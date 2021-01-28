@@ -25,5 +25,11 @@ def compare_string_result(str1, str2):
     output_list = [li for li in difflib.ndiff(str1, str2) if li[0] != ' ']
     res = ''.join(remove_punctuation(str(output_list)))
     return 'the comparing elements are: '+res
+def check_date_format(your_string):
+    import re
+    r = re.compile('.*/.*/.*')
+    if r.match(your_string) is not None:
+        return your_string
+    else: return  'please enter proper format'
 
 
