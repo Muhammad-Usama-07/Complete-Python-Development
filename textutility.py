@@ -34,4 +34,9 @@ def check_date_format(your_string):
 def number_of_words(your_string):
     return len(your_string.split())
 
-
+def swap_first_two_character_inString(a, b):
+  str1 = a[0:2]
+  str2 = b[0:2]
+  a = a.replace(str1,str2)
+  b = b.replace(str2,str1)
+  return a + " " + b
