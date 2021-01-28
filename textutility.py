@@ -1,6 +1,7 @@
 import string
 import re
 import collections
+import difflib
 def remove_punctuation(your_string):
     for i in your_string:
         if i in string.punctuation:
@@ -20,5 +21,9 @@ def repeating_words(your_string):
     word_counts = collections.Counter(words)
     for word, count in sorted(word_counts.items()):
         print('"%s" is repeated %d time%s.' % (word, count, "s" if count > 1 else ""))
+def compare_string_result(str1, str2):
+    output_list = [li for li in difflib.ndiff(str1, str2) if li[0] != ' ']
+    res = ''.join(remove_punctuation(str(output_list)))
+    return 'the comparing elements are:\n'+res
 
 
