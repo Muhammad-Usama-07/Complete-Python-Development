@@ -9,5 +9,5 @@ def remove_multiple_spaces(your_string):
     your_string = re.sub(' \s+', ' ', your_string)
     return your_string
 def remove_number(your_string):
-    result = ''.join(i for i in your_string if(i != i.isdigit()))
+    result = ''.join(i for i in your_string if(not i.isdigit()))
     return result
