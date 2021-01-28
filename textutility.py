@@ -31,5 +31,7 @@ def check_date_format(your_string):
     if r.match(your_string) is not None:
         return your_string
     else: return  'please enter proper format'
+def number_of_words(your_string):
+    return len(your_string.split())
 
 
