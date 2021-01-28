@@ -1,3 +1,3 @@
-
+import string
 def remove_punctuation():
-    pass
+    print(string.punctuation)
