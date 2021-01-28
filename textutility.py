@@ -1,2 +1,3 @@
-def func():
-	pass
+
+def remove_punctuation():
+    pass
