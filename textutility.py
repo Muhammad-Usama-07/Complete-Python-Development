@@ -40,3 +40,13 @@ def swap_first_two_character_inString(a, b):
   a = a.replace(str1,str2)
   b = b.replace(str2,str1)
   return a + " " + b
+
+
+def replace_sentance(sentance, start, end, word_to_replace):
+    start_word = sentance.find(start)
+    end_word = sentance.find(end)
+    if (sentance[start_word:end_word + 3]):
+        ssentance = sentance.replace(sentance[start_word:end_word + 3], word_to_replace)
+        return sentance
+    else:
+        return sentance
