@@ -14,3 +14,6 @@ def remove_number(your_string):
 def remove_repeating_charcter(your_string):
     res = ''.join(dict.fromkeys(your_string))
     return res
+def bold_string(your_string):
+    bolded_string = "\033[1m" + your_string + "\033[0m"
+    return bolded_string
