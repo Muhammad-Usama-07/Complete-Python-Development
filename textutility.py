@@ -7,4 +7,7 @@ def remove_punctuation(your_string):
     return your_string
 def remove_multiple_spaces(your_string):
     your_string = re.sub(' \s+', ' ', your_string)
-    return  your_string
+    return your_string
+def remove_number(your_string):
+    result = ''.join(i for i in your_string if(i != i.isdigit()))
+    return result
