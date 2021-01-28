@@ -24,6 +24,6 @@ def repeating_words(your_string):
 def compare_string_result(str1, str2):
     output_list = [li for li in difflib.ndiff(str1, str2) if li[0] != ' ']
     res = ''.join(remove_punctuation(str(output_list)))
-    return 'the comparing elements are:\n'+res
+    return 'the comparing elements are: '+res
 
 
