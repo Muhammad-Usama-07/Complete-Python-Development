@@ -46,7 +46,7 @@ def replace_sentance(sentance, start, end, word_to_replace):
     start_word = sentance.find(start)
     end_word = sentance.find(end)
     if (sentance[start_word:end_word + 3]):
-        ssentance = sentance.replace(sentance[start_word:end_word + 3], word_to_replace)
+        sentance = sentance.replace(sentance[start_word:end_word + 3], word_to_replace)
         return sentance
     else:
         return sentance
