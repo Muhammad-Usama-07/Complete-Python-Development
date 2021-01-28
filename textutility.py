@@ -11,3 +11,6 @@ def remove_multiple_spaces(your_string):
 def remove_number(your_string):
     result = ''.join(i for i in your_string if(not i.isdigit()))
     return result
+def remove_repeating_charcter(your_string):
+    res = ''.join(dict.fromkeys(your_string))
+    return res
