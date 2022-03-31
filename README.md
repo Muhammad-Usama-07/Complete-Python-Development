@@ -9,3 +9,5 @@ Thanks for visiting in my repo.
 ## My work
 
 #### [work file](https://github.com/Muhammad-Usama-07/Complete-Python-Development/blob/master/Starting%20with%20python%20Programming.ipynb)
+
+#### [Assignments](https://github.com/Muhammad-Usama-07/Complete-Python-Development/tree/master/Assignments)
