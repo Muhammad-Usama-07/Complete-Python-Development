@@ -8,8 +8,7 @@ Thanks for visiting in my repo.
 
 ## My work
 - [Work file](https://github.com/Muhammad-Usama-07/Complete-Python-Development/blob/master/Starting%20with%20python%20Programming.ipynb)
-
-#### Assignments[here](https://github.com/Muhammad-Usama-07/Complete-Python-Development/tree/master/Assignments)
+- [Assignmets](https://github.com/Muhammad-Usama-07/Complete-Python-Development/tree/master/Assignments)
 
 ## Solution
   **Mongodb**
