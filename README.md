@@ -16,3 +16,4 @@ Thanks for visiting in my repo.
    **Mongodb**
   
    **Jupyter notebook issues**
+   **DataFrame solutions**
