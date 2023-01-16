@@ -12,4 +12,7 @@ Thanks for visiting in my repo.
 
 ## Solution
   **Python Dictionary**
+  
   **Mongodb**
+  
+  **Jupyter notebook issues**
