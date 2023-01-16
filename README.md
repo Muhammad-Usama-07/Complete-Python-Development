@@ -11,8 +11,8 @@ Thanks for visiting in my repo.
 - [Assignmets](https://github.com/Muhammad-Usama-07/Complete-Python-Development/tree/master/Assignments)
 
 ## Solution
-  **Python Dictionary**
+   **Python Dictionary**
   
-  **Mongodb**
+   **Mongodb**
   
-  **Jupyter notebook issues**
+   **Jupyter notebook issues**
