@@ -18,3 +18,6 @@ Thanks for visiting in my repo.
    **Jupyter notebook issues**
    
    **DataFrame solutions**
+
+### Todo
+- receipt to data insights
