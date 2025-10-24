@@ -18,3 +18,7 @@ Thanks for visiting in my repo.
    **Jupyter notebook issues**
    
    **DataFrame solutions**
+
+## Techniques
+
+- web scrapping 
